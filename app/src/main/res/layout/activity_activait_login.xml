@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/back_fon">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="278dp"
+        android:layout_height="262dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/mirea_image" />
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="HolidaysCountrySoftware"
+        android:textColor="@color/HolidaysCountrySoftware"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/loginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите логин:"
+        android:textColorHint="@color/Логин"
+        android:textColor="@color/Логин"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/skruglrnie"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите пароль:"
+        android:textColorHint="@color/Пароль"
+        android:textColor="@color/Пароль"
+        android:inputType="textPassword"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/skruglrnie"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="ВОЙТИ"
+        android:textColor="#F8F7F7"
+        android:backgroundTint="@color/ВОЙТИ"/>
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="КР выполнил:Останин А.О РИБО-05-22,var 128"
+        android:textColor="#F8F7F7"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

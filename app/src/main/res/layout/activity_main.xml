@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back_fon">
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите год:"
+        android:textColorHint="@color/Год"
+        android:textColor="@color/Год"
+        android:inputType="number"
+        android:background="@drawable/skruglrnie"/>
+
+    <EditText
+        android:id="@+id/editTextCountryCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите двухсимвольный код страны:"
+        android:textColorHint="@color/КодСтраны"
+        android:textColor="@color/КодСтраны"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/skruglrnie"/>
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Показать праздники в этой стране"
+        android:backgroundTint="@color/Показать"
+        android:textColor="#F8F7F7"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"/>
+
+</LinearLayout>

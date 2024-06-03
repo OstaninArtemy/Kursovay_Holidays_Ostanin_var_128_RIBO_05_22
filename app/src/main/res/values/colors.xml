@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="HolidaysCountrySoftware">#700808</color>
+    <color name="Логин">#0C0C0C</color>
+    <color name="Пароль">#0C0C0C</color>
+    <color name="ВОЙТИ">#700808</color>
+    <color name="Год">#0C0C0C</color>
+    <color name="КодСтраны">#0C0C0C</color>
+    <color name="Показать">#FF700808</color>
+
+</resources>
